@@ -1,0 +1,7 @@
+Bobby;55555555;barbaro@dd.com;deixa a uni
+Diana;22222222;diana@dd.com;acrobata
+Eric;11111111;eric@dd.com;cavaleiro medroso
+Hank;00000000;hank@dd.com;lider
+Sheila;33333333;sheila@dd.com;mão ligeira
+Presto;44444444;presto@dd.com;mago atrapalhado
+princesa Diana;77777777;diana@royal.uk;palacio

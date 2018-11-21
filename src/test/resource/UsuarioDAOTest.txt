@@ -1,0 +1,7 @@
+aaaaa;11111
+ccccc;22222
+queen;33333
+amora;22222
+ameixa;44444
+travesseiro;55555
+sonoEterno;66666
