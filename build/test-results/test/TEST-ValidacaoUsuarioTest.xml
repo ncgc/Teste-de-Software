@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ValidacaoUsuarioTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-11-21T01:44:58" hostname="LAPTOP-0QOC31TN" time="0.003">
+  <properties/>
+  <testcase name="valid_length_15()" classname="ValidacaoUsuarioTest" time="0.001"/>
+  <testcase name="invalid_length_16()" classname="ValidacaoUsuarioTest" time="0.0"/>
+  <testcase name="valid_length_4()" classname="ValidacaoUsuarioTest" time="0.001"/>
+  <testcase name="valid_length_5()" classname="ValidacaoUsuarioTest" time="0.0"/>
+  <testcase name="invalid_empty()" classname="ValidacaoUsuarioTest" time="0.0"/>
+  <testcase name="invalid_special_char()" classname="ValidacaoUsuarioTest" time="0.0"/>
+  <testcase name="invalid_with_spaces()" classname="ValidacaoUsuarioTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
