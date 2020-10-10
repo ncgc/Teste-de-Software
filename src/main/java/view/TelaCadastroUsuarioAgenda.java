@@ -24,6 +24,7 @@ public class TelaCadastroUsuarioAgenda extends javax.swing.JFrame {
         cxNomeUsuario = new javax.swing.JTextField();
         cxSenha = new javax.swing.JTextField();
         cxConfirmacao = new javax.swing.JTextField();
+        btnBack = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -32,21 +33,25 @@ public class TelaCadastroUsuarioAgenda extends javax.swing.JFrame {
             }
         });
 
-        btnCadastrar.setText("Cadastrar");
+        btnCadastrar.setText("Back");
         btnCadastrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCadastrarActionPerformed(evt);
             }
         });
 
+        btnBack.setText("Register");
+        btnBack.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBackActionPerformed(evt);
+            }
+        });
 
-        jLabel1.setText("Nome de Usuário: ");
+        jLabel1.setText("User:");
 
-        jLabel2.setText("Senha:");
+        jLabel2.setText("Password:");
 
-        jLabel3.setText("Confirmação de Senha:");
-
-        
+        jLabel3.setText("Password Confirmation:");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -67,8 +72,11 @@ public class TelaCadastroUsuarioAgenda extends javax.swing.JFrame {
                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                             .addComponent(jLabel3)
                             .addGap(49, 49, 49)
-                            .addComponent(cxSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(btnCadastrar, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(cxSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                            .addComponent(btnBack, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGap(20, 20, 20)
+                            .addComponent(btnCadastrar, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(46, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -87,6 +95,7 @@ public class TelaCadastroUsuarioAgenda extends javax.swing.JFrame {
                     .addComponent(jLabel3)
                     .addComponent(cxSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnBack)
                 .addComponent(btnCadastrar)
                 .addContainerGap(28, Short.MAX_VALUE))
         );
@@ -103,6 +112,9 @@ public class TelaCadastroUsuarioAgenda extends javax.swing.JFrame {
        }
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
+    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {
+        //to implement
+    }
     private void formWindowClosed(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosed
         new TelaLogin().setVisible(true);
     }
@@ -121,6 +133,7 @@ public class TelaCadastroUsuarioAgenda extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCadastrar;
+    private javax.swing.JButton btnBack;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

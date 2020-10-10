@@ -30,11 +30,11 @@ public class TelaBusca extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Busca de Contatos");
+        jLabel1.setText("Search Contacts");
 
-        jLabel2.setText("Nome ou parte do nome:");
+        jLabel2.setText("Name");
 
-        btnBuscar.setText("Buscar");
+        btnBuscar.setText("Search");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

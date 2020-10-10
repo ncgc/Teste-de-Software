@@ -20,7 +20,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         btnListar = new javax.swing.JButton();
         btnCriar = new javax.swing.JButton();
 
-        btnBuscar.setText("Buscar Contato");
+        btnBuscar.setText("Search Contact");
         btnBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBuscarActionPerformed(evt);
@@ -29,14 +29,14 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jLabel1.setText("Opções básicas da agenda de contatos.");
 
-        btnListar.setText("Listar Contatos");
+        btnListar.setText("List Contacts");
         btnListar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnListarActionPerformed(evt);
             }
         });
         
-        btnCriar.setText("Criar Contatos");
+        btnCriar.setText("New Contact");
         btnCriar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCriarActionPerformed(evt);

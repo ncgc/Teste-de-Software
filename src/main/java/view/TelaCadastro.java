@@ -44,15 +44,15 @@ public class TelaCadastro extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Nome");
+        jLabel1.setText("Name");
 
-        jLabel2.setText("Telefone");
+        jLabel2.setText("Phone");
 
         jLabel3.setText("Email");
 
-        jLabel4.setText("Endereço");
+        jLabel4.setText("Address");
 
-        btnCadastrar.setText("Cadastrar");
+        btnCadastrar.setText("Register");
         btnCadastrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCadastrarActionPerformed(evt);

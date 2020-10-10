@@ -27,16 +27,16 @@ public class TelaLogin extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel1.setText("Nome de Usuário");
+        jLabel1.setText("Name");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel2.setText("Senha");
+        jLabel2.setText("Password");
 
         btnOK.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnOK.setText("OK");
 
         btnNovoUsuario.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        btnNovoUsuario.setText("Novo Usuário");
+        btnNovoUsuario.setText("New User");
 
         btnNovoUsuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
